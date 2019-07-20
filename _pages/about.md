@@ -9,7 +9,7 @@ title: "Peter Giacomo Lombardo"
 ## Current Work
 
 | - | - |
-| ![](/assets/images/pages/instana-logo.jpg) | Performance Instrumentation |
+| [![](/assets/images/pages/instana-logo.jpg)](https://www.instana.com/) | Performance Instrumentation |
 
 ## Past Work
 

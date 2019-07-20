@@ -1,13 +1,14 @@
 ---
 layout: single
-categories: ["Tracelytics"]
+categories: ["Tracelytics", "Ruby"]
 title: "The War on ActionView with Russian Doll Caching"
 ---
 
+**Update**: This article was originally featured on AppNeta's Application Performance Blog which unfortunately no longer exists.  In 2016, the TraceView product was sold to [SolarWinds](https://traceview.solarwinds.com/traceview/).
+
+
 > Rails 4 is out featuring Russian Doll caching (AKA Cache Digests).  In this article, I apply Russian Doll caching to one of my poorer performing 
 Rails 3 pages using the [cache_digests](https://github.com/rails/cache_digests) gem.
-
-_This article was originally featured on AppNeta's [Application Performance Blog](http://www.appneta.com/blog/).  [Check it out](http://www.appneta.com/blog/russian-doll-caching/)!_
 
 ActionView templates are great.  They are easy to code, manage and extend but the one thing they are not is _fast_...at least not out of the box.
 
