@@ -25,17 +25,10 @@ title: "Projects: Past and Present"
 
 ## Past
 
-[![](/assets/images/posts/pwpush-logo.png)](https://pwpush.com)
-
-<div class="github-card" data-github="pglombardo/PasswordPusher" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
-<div class="github-card" data-github="pglombardo/IRC2HipChat" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
-<div class="github-card" data-github="tracelytics/ruby-traceview" data-width="400" data-height="153" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
-## Really Old
-
-![](/assets/images/projects/hexapod1.jpg)
+| - | - |
+| [![](/assets/images/posts/pwpush-logo.png)](https://pwpush.com) | PasswordPusher is an application to securely communicate passwords over the web. Passwords automatically expire after a certain number of views and/or time has passed |
+| [![PasswordPusher Alfred Workflow](/assets/images/pages/pwpush-alfred.png)](https://github.com/pglombardo/pwpush-alfred) | [Alfred workflow](http://www.packal.org/workflow/passwordpusher) for PasswordPusher
+| ![Gameface](/assets/images/pages/Gameface%20Header%202013-11-14%20at%2017.13.08.png) | Social networking platform for gamers |
+| [![IRC2HipChat](/assets/images/pages/irc2hipchat.png)](/IRC2HipChat/) | Log all messages from an IRC room to HipChat |
+| [![TraceView Ruby](/assets/images/pages/traceview-ruby.png)](https://github.com/tracelytics/ruby-traceview) | The [TraceView](https://traceview.solarwinds.com/) Ruby Instrumentation Gem |
+| ![](/assets/images/projects/hexapod1.jpg) | My first robotic platform...before the advent of 3D printers. |
