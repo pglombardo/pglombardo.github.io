@@ -108,7 +108,8 @@ analytics:
 author:
   name             : "Peter Giacomo Lombardo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Performance Instrumentation @ <a target='_blank' href='https://instana.com'>Instana</a>, Robotics, Deep Learning & AI for fun. <p/>👁 ✏️ 📃 ➡️ 💻"
+  bio              : "Performance Instrumentation @ <a target='_blank' href='https://instana.com'>Instana</a>, Robotics, Deep Learning & AI for fun.
+  👁 ✏️ 📃 ➡️ 💻"
   location         : "Palermo, Sicily"
   email            :
   links:
