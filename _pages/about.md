@@ -1,9 +1,9 @@
 ---
 permalink: /about
 layout: single
-classes: wide
 author_profile: true
 title: "About"
+toc: true
 ---
 
 I build performance instrumentation for [Instana](https://www.instana.com/) that provides visibility into distributed application stacks.  Visibility consists of key metrics and distributed tracing of requests across processes and hosts.
@@ -31,12 +31,14 @@ I contribute to a large number of open source projects.  See the [Projects](/pro
 * Genetic Algorithms
 * [DataCamp](https://www.datacamp.com/profile/pglombardo)
 
-## Current
+## Work
+
+### Current
 
 | - | - |
 | [![](/assets/images/pages/instana-logo.jpg)](https://www.instana.com/) | Performance Instrumentation |
 
-## Past
+### Past
 
 |:-:|:-:|:-:|
 | Company | Area | Work Done
