@@ -45,9 +45,11 @@ def urlopen_with_instana(wrapped, instance, args, kwargs):
       raise
 ```
 
-With this, every call to `urllib3.urlopen` will be intercepted by `urlopen_with_instana` which allows us to add pre, post and exception handling code execution.
+With this, every call to `urllib3.HTTPConnectionPool.urlopen()` will be intercepted by `urlopen_with_instana` which allows us to add pre, post and exception handling code execution.
 
 This is the pattern we use to intercept Python Redis calls in the [Python sensor for Instana](https://github.com/instana/python-sensor).
+
+_The following example uses [OpenTracing APIs](https://opentracing.io) for a distributed tracing implementation._
 
 ```python
 @wrapt.patch_function_wrapper('redis.client','StrictRedis.execute_command')
