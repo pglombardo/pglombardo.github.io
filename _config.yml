@@ -108,20 +108,23 @@ analytics:
 author:
   name             : "Peter Giacomo Lombardo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Performance Instrumentation @ <a target='_blank' href='https://instana.com'>Instana</a>, Robotics, Deep Learning & AI for fun.
+  bio              : "Performance Instrumentation, Robotics, Deep Learning & AI for fun.
   👁 ✏️ 📃 ➡️ 💻"
   location         : "Palermo, Sicily"
   email            :
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pglombardo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pglombardo"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/peterlombardo/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/pglombardo"
+    - label: "GoodReads"
+      icon: "fab fa-fw fa-goodreads"
+      url: "https://www.goodreads.com/user/show/128704403-peter-lombardo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
