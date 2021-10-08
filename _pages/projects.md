@@ -13,6 +13,23 @@ header:
 excerpt: "Various projects from recent years"
 intro: 
   - excerpt: ''
+pwpush_row:
+  - image_path: /assets/images/posts/pwpush-logo.png
+    image_caption: "Password Pusher"
+    alt: "Password Pusher"
+    title: "Password Pusher"
+    excerpt: 'An application to securely communicate passwords over the web. Passwords automatically expire after a certain number of views and/or time has passed'
+    url: "https://pwpush.com"
+    btn_label: "Go to App"
+    btn_class: "btn--primary"
+pwpush_alfred_row:
+  - image_path: /assets/images/pages/pwpush-alfred.png
+    alt: "Password Pusher Alfred Workflow"
+    title: "Password Pusher Alfred Workflow"
+    excerpt: 'Alfred workflow for PasswordPusher'
+    url: "http://www.packal.org/workflow/passwordpusher"
+    btn_label: "Packal"
+    btn_class: "btn--primary"
 python_sensor_row:
   - image_path: /assets/images/posts/stan_loves_python_github_social_media_card.png
     image_caption: "Instana Python Sensor"
@@ -49,24 +66,6 @@ crystal_sensor_row:
     url: "https://github.com/instana/crystal-sensor"
     btn_label: "Github"
     btn_class: "btn--primary"
-
-pwpush_row:
-  - image_path: /assets/images/posts/pwpush-logo.png
-    image_caption: "PasswordPusher"
-    alt: "Password Pusher"
-    title: "Password Pusher"
-    excerpt: 'PasswordPusher is an application to securely communicate passwords over the web. Passwords automatically expire after a certain number of views and/or time has passed'
-    url: "https://pwpush.com"
-    btn_label: "Go to App"
-    btn_class: "btn--primary"
-pwpush_alfred_row:
-  - image_path: /assets/images/pages/pwpush-alfred.png
-    alt: "Password Pusher Alfred Workflow"
-    title: "Password Pusher Alfred Workflow"
-    excerpt: 'Alfred workflow for PasswordPusher'
-    url: "http://www.packal.org/workflow/passwordpusher"
-    btn_label: "Packal"
-    btn_class: "btn--primary"
 gameface_row:
   - image_path: /assets/images/pages/Gameface%20Header%202013-11-14%20at%2017.13.08.png
     alt: "Gameface"
@@ -92,6 +91,10 @@ traceview_row:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row id="pwpush_row" type="left" %}
+
+{% include feature_row id="pwpush_alfred_row" type="right" %}
+
 {% include feature_row id="python_sensor_row" type="left" %}
 
 {% include feature_row id="ruby_sensor_row" type="right" %}
@@ -99,10 +102,6 @@ traceview_row:
 {% include feature_row id="go_sensor_row" type="left" %}
 
 {% include feature_row id="crystal_sensor_row" type="right" %}
-
-{% include feature_row id="pwpush_row" type="left" %}
-
-{% include feature_row id="pwpush_alfred_row" type="right" %}
 
 {% include feature_row id="gameface_row" type="left" %}
 
