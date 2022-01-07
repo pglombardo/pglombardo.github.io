@@ -3,7 +3,7 @@ layout: single
 categories: ["Instana"]
 classes: wide
 header:
-  teaser: /assets/images/posts/2021/robotic-arms-teaser.png
+  teaser: /assets/images/posts/2021/instana/instana-serbia-2018.jpg
 title: "A Brief History of Instana" 
 ---
 
@@ -12,7 +12,7 @@ With the great technology, team and the times we had together, I thought it woul
 
 This is obviously specific to my experience as a member of engineering.  If you want to add some thoughts, photos and/or memories (or remove something) you can:
 
-1. Submit a PR [here](https://github.com/pglombardo/pglombardo.github.io/tree/master/_posts)
+1. Submit a PR [here](https://github.com/pglombardo/pglombardo.github.io/blob/master/_posts/2022-01-07-History-of-Instana.md)
 2. Contact me: pglombardo at hey . com or on [LinkedIn](https://www.linkedin.com/in/peterlombardo/)
 
 I can also add some people to the Flickr albums if anyone wants to add some photos.
