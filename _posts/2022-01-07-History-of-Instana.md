@@ -108,6 +108,10 @@ The company was closing in on around 200 employees so it was closer to a confere
 
 [Flickr Album](https://www.flickr.com/gp/192483378@N05/yi73rv)
 
+Thanks to Marcel Birkner for creating this great compilation video.
+
+{% include video id="6GSxM3Fbtdw" provider="youtube" %}
+
 ## Acquisition
 
 On December 28, 2020, Instana was acquired by IBM.  
