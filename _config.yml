@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Peter Giacomo Lombardo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/2021-lombardo.png"
   bio              : "Performance Instrumentation, Robotics, Deep Learning & AI for fun.  Security out of necessity with Password Pusher.  👁 ✏️ 📃 ➡️ 💻"
   location         : "Palermo, Sicily"
   email            :
