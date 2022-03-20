@@ -6,13 +6,11 @@ header:
   teaser: /assets/images/posts/tumblr_inline_mw9gvjKhQJ1qhmapj.png
 ---
 
-We just opened the [Github repository](https://github.com/appneta/oboe-ruby) to the public and announced it [here](http://www.appneta.com/blog/open-sourcing-ruby/). The TraceView Ruby instrumentation gives you performance data like [this](http://d.pr/i/QIRh), [this](http://d.pr/i/adcz), [this](http://d.pr/i/WfVC), [this](http://d.pr/i/GhOE) and even [this](http://d.pr/i/xahy).
+We just opened the [Github repository](https://github.com/appneta/oboe-ruby) to the public and announced it [here](http://www.appneta.com/blog/open-sourcing-ruby/).
 
 ![](/assets/images/posts/tumblr_inline_mw9gvjKhQJ1qhmapj.png)
 
-We just opened the [Github repository](https://github.com/appneta/oboe-ruby) to the public and announced it [here](http://www.appneta.com/blog/open-sourcing-ruby/). The TraceView Ruby instrumentation gives you performance data like [this](http://d.pr/i/QIRh), [this](http://d.pr/i/adcz), [this](http://d.pr/i/WfVC), [this](http://d.pr/i/GhOE) and even [this](http://d.pr/i/xahy).
-
-If any of you are using it or give it a run and have any issues/questions - feel free to ping me anytime at _pglombardo_ at _gameface.in_ or via a [support ticket](http://support.tv.appneta.com) through AppNeta.  I'd love to get as much feedback as possible.  They have a [free-forever project-level plan](http://www.appneta.com/products/traceview/) that always shows the last 24 hours of performance data.
+If any of you are using it or give it a run and have any issues/questions - feel free to ping me anytime at _pglombardo_ at _gmail.com_ or via a [support ticket](http://support.tv.appneta.com) through AppNeta.  I'd love to get as much feedback as possible.  They have a [free-forever project-level plan](http://www.appneta.com/products/traceview/) that always shows the last 24 hours of performance data.
 
 Some links:
 
