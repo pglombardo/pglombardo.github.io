@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "The 0x00"
 title_separator          : "-"
 name                     : "Peter Giacomo Lombardo"
-description              : "Instrumentation Engineer"
+description              : "Startup Hacker"
 url                      : "https://the0x00.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pglombardo/pglombardo.github.io"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Peter Giacomo Lombardo"
   avatar           : "/assets/images/2021-lombardo.png"
-  bio              : "Performance Instrumentation, Robotics, Deep Learning & AI for fun.  Security out of necessity with Password Pusher.  👁 ✏️ 📃 ➡️ 💻"
+  bio              : "Building startups and dominating markets.  Currently HiveMQ.  Creator of Password Pusher.  Former staff of acquired startups Instana & Tracelytics."
   location         : "Palermo, Sicily"
   email            :
   links:
