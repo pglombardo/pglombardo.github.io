@@ -1,6 +1,6 @@
 ---
 layout: single
-categories: ["PasswordPusher"]
+categories: ["Password Pusher"]
 classes: wide
 header:
   teaser: /assets/images/posts/2021/pwpush/logo-transparent-md-bare.png

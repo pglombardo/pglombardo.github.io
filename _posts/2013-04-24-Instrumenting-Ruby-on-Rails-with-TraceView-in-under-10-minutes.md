@@ -20,7 +20,7 @@ and even end-user monitoring:
 
 ![](/assets/images/posts/tracelytics-end-user-overview.png)
 
-I run it on [Gameface](http://gameface.in) and [PasswordPusher](http://pwpush.com) - it's an essential tool in identifying problem areas, performance bottlenecks and simply poor performing code. (Read: ActionView)
+I run it on [Gameface](http://gameface.in) and [Password Pusher](http://pwpush.com) - it's an essential tool in identifying problem areas, performance bottlenecks and simply poor performing code. (Read: ActionView)
 
 ## Installation
 

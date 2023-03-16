@@ -26,7 +26,7 @@ pwpush_alfred_row:
   - image_path: /assets/images/pages/pwpush-alfred.png
     alt: "Password Pusher Alfred Workflow"
     title: "Password Pusher Alfred Workflow"
-    excerpt: 'Alfred workflow for PasswordPusher'
+    excerpt: 'Alfred workflow for Password Pusher'
     url: "http://www.packal.org/workflow/passwordpusher"
     btn_label: "Packal"
     btn_class: "btn--primary"

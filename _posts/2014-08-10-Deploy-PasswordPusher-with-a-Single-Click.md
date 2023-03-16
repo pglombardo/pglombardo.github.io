@@ -1,12 +1,12 @@
 ---
 layout: single
-categories: ["PasswordPusher"]
-title: "Deploy PasswordPusher with a Single Click"
+categories: ["Password Pusher"]
+title: "Deploy Password Pusher with a Single Click"
 header:
   teaser: /assets/images/posts/pwpush-logo.png
 ---
 
-[PasswordPusher](https://github.com/pglombardo/PasswordPusher) now has the ability to be deployed to Heroku with a single click using Heroku's new [deploy button](https://blog.heroku.com/archives/2014/8/7/heroku-button).
+[Password Pusher](https://github.com/pglombardo/PasswordPusher) now has the ability to be deployed to Heroku with a single click using Heroku's new [deploy button](https://blog.heroku.com/archives/2014/8/7/heroku-button).
 
 ![](/assets/images/posts/tumblr_inline_na3nug15R51qhmapj.png)
 
