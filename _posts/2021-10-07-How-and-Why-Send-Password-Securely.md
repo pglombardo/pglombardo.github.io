@@ -3,9 +3,10 @@ layout: single
 categories: ["Password Pusher"]
 classes: wide
 header:
-  teaser: /assets/images/posts/2021/pwpush/logo-transparent-md-bare.png
+  teaser: /assets/images/posts/2021/send-secure-laptop.png
+  image: /assets/images/posts/2021/send-secure-laptop.png
 title: "How to Securely Send Passwords or Other Confidential Information"
-toc: true
+toc: false
 ---
 
 Do you have to send something confidential to a colleague, friend or associate?  Don't let that information persist indefinitely.

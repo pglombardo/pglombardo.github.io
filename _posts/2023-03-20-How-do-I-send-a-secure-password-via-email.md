@@ -1,10 +1,13 @@
 ---
-layout: single
+layout: single 
 categories: ["Password Pusher"]
-classes: wide
+classes: 
+  - wide
+  - dark-theme
 title: "How do I send a secure password via email?"
 header:
   teaser: /assets/images/posts/2023/email.png
+  image: /assets/images/posts/2023/email.png
 ---
 
 Do you need to send a secure password or clip of text securely?  If you send it by email, it could live in email archives forever.

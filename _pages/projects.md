@@ -15,7 +15,7 @@ intro:
   - excerpt: ''
 pwpush_row:
   - image_path: /assets/images/posts/pwpush-logo.png
-    image_caption: "Password Pusher"
+    #image_caption: "Password Pusher"
     alt: "Password Pusher"
     title: "Password Pusher"
     excerpt: 'An application to securely communicate passwords over the web. Passwords automatically expire after a certain number of views and/or time has passed'
@@ -30,9 +30,26 @@ pwpush_alfred_row:
     url: "http://www.packal.org/workflow/passwordpusher"
     btn_label: "Packal"
     btn_class: "btn--primary"
+pwpush_cli_row:
+  - image_path: /assets/images/projects/pwpush-cli-help.png
+    alt: "Password Pusher CLI"
+    title: "Password Pusher CLI"
+    excerpt: 'Command Line Interface for Password Pusher utilizing the JSON API.'
+    url: "https://github.com/pglombardo/pwpush-cli"
+    btn_label: "Github"
+    btn_class: "btn--primary"
+hivemq_csharp_row:
+  - image_path: /assets/images/projects/hivemq_csharp.png
+    #image_caption: ""
+    alt: "HiveMQ MQTT Client for C#"
+    title: "HiveMQ MQTT Client for C#"
+    excerpt: 'Open source MQTT client for C# on Microsoft .NET.'
+    url: "https://github.com/hivemq/hivemq-mqtt-client-dotnet"
+    btn_label: "Github"
+    btn_class: "btn--primary"
 python_sensor_row:
   - image_path: /assets/images/posts/stan_loves_python_github_social_media_card.png
-    image_caption: "Instana Python Sensor"
+    #image_caption: ""
     alt: "Instana Python Sensor"
     title: "Python Performance Instrumentation"
     excerpt: 'Open source distributed tracing and metrics sensor with automatic instrumentation of a large list of popular Python frameworks, libraries and packages and a qualified implementation of the [OpenTracing](https://opentracing.io) API'
@@ -41,7 +58,7 @@ python_sensor_row:
     btn_class: "btn--primary"
 ruby_sensor_row:
   - image_path: /assets/images/posts/instana-ruby-code-view.png
-    image_caption: "Instana Ruby Sensor"
+    #image_caption: "Instana Ruby Sensor"
     alt: "Instana Ruby Sensor"
     title: "Ruby Performance Instrumentation"
     excerpt: 'Open source distributed tracing and metrics sensor with automatic instrumentation of a large list of popular Ruby frameworks, libraries and packages, a proprietary SDK and a qualified implementation of the [OpenTracing](https://opentracing.io) API'
@@ -50,7 +67,7 @@ ruby_sensor_row:
     btn_class: "btn--primary"
 go_sensor_row:
   - image_path: /assets/images/posts/instana-go-banner.png
-    image_caption: "Instana Go Sensor"
+    #image_caption: "Instana Go Sensor"
     alt: "Instana Go Sensor"
     title: "Go Performance Instrumentation"
     excerpt: 'Open source distributed tracing and metrics sensor supporting a qualified implementation of the [OpenTracing](https://opentracing.io) API'
@@ -59,7 +76,7 @@ go_sensor_row:
     btn_class: "btn--primary"
 crystal_sensor_row:
   - image_path: /assets/images/posts/instana-crystal-sensor.png
-    image_caption: "Instana Crystal Sensor"
+    #image_caption: "Instana Crystal Sensor"
     alt: "Instana Crystal Sensor"
     title: "Crystal Performance Instrumentation"
     excerpt: 'Open source distributed tracing and metrics sensor supporting a qualified implementation of the [OpenTracing](https://opentracing.io) API and a proprietary SDK'
@@ -93,19 +110,23 @@ traceview_row:
 
 {% include feature_row id="pwpush_row" type="left" %}
 
-{% include feature_row id="pwpush_alfred_row" type="right" %}
+{% include feature_row id="pwpush_alfred_row" type="left" %}
+
+{% include feature_row id="pwpush_cli_row" type="left" %}
+
+{% include feature_row id="hivemq_csharp_row" type="left" %}
 
 {% include feature_row id="python_sensor_row" type="left" %}
 
-{% include feature_row id="ruby_sensor_row" type="right" %}
+{% include feature_row id="ruby_sensor_row" type="left" %}
 
 {% include feature_row id="go_sensor_row" type="left" %}
 
-{% include feature_row id="crystal_sensor_row" type="right" %}
+{% include feature_row id="crystal_sensor_row" type="left" %}
 
 {% include feature_row id="gameface_row" type="left" %}
 
-{% include feature_row id="irc2hipchat_row" type="right" %}
+{% include feature_row id="irc2hipchat_row" type="left" %}
 
 {% include feature_row id="traceview_row" type="left" %}
 
