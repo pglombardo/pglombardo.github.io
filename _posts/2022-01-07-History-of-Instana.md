@@ -1,9 +1,9 @@
 ---
 layout: single
 categories: ["Instana"]
-classes: wide
 header:
   teaser: /assets/images/posts/2021/instana/instana-serbia-2018.jpg
+  image: /assets/images/posts/2022/stan-the-author.jpg
 title: "A Brief History of Instana" 
 ---
 
@@ -128,8 +128,10 @@ On the business side, sales data, quarterly numbers and short/longterm objective
 
 Overall, Instana was a great success not only in terms of the product & acquisition but the overall achievements of the team and the great times we had taking on the challenge.
 
-This is my brief history of Instana.  Admittedly these are broad strokes.  I didn't even get to mention the great sales, support, management, exec and administrative teams that made all the other parts work.
+This is my brief history of Instana.  I didn't even get to mention the great sales, support, management, exec and administrative teams that made all the other parts work.
 
 Thanks Mirko, Fabian and Pavlo and the whole team for the great challenge and adventure.
 
 I hope all of my ex-colleagues are doing well.  I wish you all the best.
+
+![Goodbye](/assets/images/posts/2022/stan-disconnect.png)

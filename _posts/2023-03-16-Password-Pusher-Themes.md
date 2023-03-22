@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Password Pusher"]
-classes: wide
 title: "Password Pusher Themes!"
 header:
   teaser: https://pwpush.fra1.cdn.digitaloceanspaces.com/themes%2Fquartz-theme-pwpush.com.png

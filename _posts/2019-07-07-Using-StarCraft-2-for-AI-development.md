@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Deep Learning", "Python", "AI"]
-classes: wide
 header:
   teaser: /assets/images/posts/sc2ai-example.gif
 title: "Using StarCraft II for AI Research"

@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Ruby"]
-classes: wide
 header:
   teaser: /assets/images/posts/rails-logo.jpg
 title: "How to Run a Ruby on Rails Application in a Subfolder" 

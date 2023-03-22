@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Password Pusher"]
-classes: wide
 header:
   teaser: /assets/images/posts/2021/send-secure-laptop.png
   image: /assets/images/posts/2021/send-secure-laptop.png

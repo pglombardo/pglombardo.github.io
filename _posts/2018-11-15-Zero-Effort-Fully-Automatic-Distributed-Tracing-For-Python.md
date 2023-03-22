@@ -1,9 +1,9 @@
 ---
 layout: single
 categories: ["Instana", "Python"]
-classes: wide
 header:
   teaser: /assets/images/posts/stan_loves_python_github_social_media_card.png
+excerpt: "Python instrumentation with ZERO install or upgrade steps required (ever)."
 ---
 
 _This post was orginally featured on the [Instana Blog](https://www.instana.com/blog/zero-effort-fully-automatic-distributed-tracing-for-python/)._
@@ -126,7 +126,7 @@ To better visualize the significance of this announcement, let’s compare the t
 </tr>
 </tbody>
 </table>
-<strong><em>P.S. Did you know that we already offer this same Auto-Trace functionality for <a href="https://www.instana.com/supported-technologies/" target="_blank" rel="noopener noreferrer">Java and PHP</a>? Python is just the latest addition. More languages to come!</em></strong>
+<strong><em>P.S. Did you know that we already offer this same Auto-Trace functionality for <a href="https://www.instana.com/supported-technologies/" target="_blank" rel="noopener noreferrer">Java and PHP</a>? Python is the latest addition.</em></strong>
 <h3>As Always - More Python Instrumentation</h3>
 Outside of this new functionality, we’re also continually adding new instrumentation to the Python sensor. Most recently we’ve added support for <a href="https://www.sqlalchemy.org" target="_blank" rel="noopener noreferrer">SQL Alchemy</a> and <a href="https://pypi.org/project/asynqp/" target="_blank" rel="noopener noreferrer">Asynqp</a>. Stay tuned because much more is on the way.
 

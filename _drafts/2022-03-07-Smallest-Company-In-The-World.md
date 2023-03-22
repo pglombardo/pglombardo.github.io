@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Robotics"]
-classes: wide
 header:
   teaser: /assets/images/posts/2021/instana/instana-serbia-2018.jpg
 title: "List of Things That Robotic Companies Should NEVER Do" 

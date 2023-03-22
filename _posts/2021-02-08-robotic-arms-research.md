@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Robotics"]
-classes: wide
 header:
   teaser: /assets/images/posts/2021/robotic-arms-teaser.png
 title: "Robotic Arms for Research: Comparison 2021"

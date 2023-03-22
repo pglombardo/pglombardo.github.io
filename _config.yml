@@ -289,3 +289,4 @@ defaults:
       comments: false
       share: true
       related: true
+      classes: wide

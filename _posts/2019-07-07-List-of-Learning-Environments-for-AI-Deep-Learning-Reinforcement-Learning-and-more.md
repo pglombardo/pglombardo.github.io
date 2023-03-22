@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["AI"]
-classes: wide
 header:
   teaser: /assets/images/posts/mathematics-universe.png
 title: "List of AI Learning Environments"

@@ -2,6 +2,8 @@
 layout: single
 categories: ["Tracelytics", "Ruby"]
 title: "The War on ActionView with Russian Doll Caching"
+header:
+  teaser: /assets/images/posts/tracelytics-layer-overview.png
 ---
 
 **Update**: This article was originally featured on AppNeta's Application Performance Blog which unfortunately no longer exists.  In 2016, the TraceView product was sold to [SolarWinds](https://traceview.solarwinds.com/traceview/).

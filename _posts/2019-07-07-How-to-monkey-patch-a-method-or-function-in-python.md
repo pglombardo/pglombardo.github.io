@@ -1,7 +1,6 @@
 ---
 layout: single
 categories: ["Python"]
-classes: wide
 header:
   teaser: /assets/images/posts/stan_loves_python_github_social_media_card.png
 title: "How to wrap (monkey patch) methods or functions in Python"

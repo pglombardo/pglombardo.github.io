@@ -1,9 +1,6 @@
 ---
 layout: single 
 categories: ["Password Pusher"]
-classes: 
-  - wide
-  - dark-theme
 title: "How do I send a secure password via email?"
 header:
   teaser: /assets/images/posts/2023/email.png

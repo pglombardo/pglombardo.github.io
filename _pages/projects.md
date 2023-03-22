@@ -1,8 +1,8 @@
 ---
 permalink: /projects
 layout: splash
-classes: wide
 title: "Projects: Past and Present"
+classes: wide
 # Repo cards generated from: https://lab.lepture.com/github-cards/#instana/python-sensor|default
 header:
   overlay_color: "#000"
