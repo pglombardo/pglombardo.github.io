@@ -25,6 +25,15 @@ My focus was on Python and Ruby performance instrumentation although I also did 
 
 I contribute to a large number of open source projects.  See the [Projects](/projects) page or my [Github profile](https://github.com/pglombardo) for more details.
 
+## Articles
+
+* [HiveMQ MQTT C# Client (BETA)](https://www.hivemq.com/blog/mqtt-client-library-for-c-sharp-dot-net/)
+* [Monitoring Python with Instana](https://www.instana.com/blog/monitoring-python-instana/)
+* [Zero-Effort, Fully Automatic Distributed Tracing for Python Performance](https://www.instana.com/blog/zero-effort-fully-automatic-distributed-tracing-for-python/)
+* [Python Application Monitoring, Automatic Tracing and OpenTracing](https://www.instana.com/blog/python-application-monitoring-automatic-tracing-and-opentracing/) - also on [DZone](https://dzone.com/articles/python-application-monitoring-automatic-tracing-an)
+* [Introducing the Instana Python REST API Client](https://www.instana.com/blog/introducing-the-instana-python-rest-api-client/)
+* [Instrumenting Ruby on Rails with TraceView in Under 10 Minutes](https://dzone.com/articles/instrumenting-ruby-rails)
+
 ## Recent Community Groups & Conferences
 
 * 2018 [PyCon](https://us.pycon.org/2018/) in Cleveland, Ohio
