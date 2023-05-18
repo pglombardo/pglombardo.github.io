@@ -2,13 +2,13 @@
 permalink: /about
 layout: single
 author_profile: true
-title: "About"
-toc: true
+title: "About Peter Giacomo Lombardo"
+toc: false
+classes: wide
 ---
 
 
 ## Recent Past
-
 
 I built performance instrumentation for [Instana](https://www.instana.com/) (and previously [Tracelytics](https://twitter.com/tracelytics)) that provides visibility into distributed application stacks.  Visibility consists of key metrics and distributed tracing of requests across processes, hosts, clouds and serverless.
 
@@ -25,8 +25,9 @@ My focus was on Python and Ruby performance instrumentation although I also did 
 
 I contribute to a large number of open source projects.  See the [Projects](/projects) page or my [Github profile](https://github.com/pglombardo) for more details.
 
-## Articles
+## Published Articles
 
+* [The Ultimate Guide on How to Use MQTT with Node.js](https://www.hivemq.com/blog/ultimate-guide-on-how-to-use-mqtt-with-node-js/)
 * [HiveMQ MQTT C# Client (BETA)](https://www.hivemq.com/blog/mqtt-client-library-for-c-sharp-dot-net/)
 * [Monitoring Python with Instana](https://www.instana.com/blog/monitoring-python-instana/)
 * [Zero-Effort, Fully Automatic Distributed Tracing for Python Performance](https://www.instana.com/blog/zero-effort-fully-automatic-distributed-tracing-for-python/)
@@ -41,16 +42,14 @@ I contribute to a large number of open source projects.  See the [Projects](/pro
 
 ## Research, Interests & Hobbies
 
+* [Piano](https://www.youtube.com/watch?v=HDSmKGVOAd8)
 * Robotics
-* Deep Learning
-* Genetic Algorithms
-* [DataCamp](https://www.datacamp.com/profile/pglombardo)
 
 ## Work
 
 ### Current
 
-On an overdue vacation: Reading, Research, & Learning.  Some Robotic, AI/ML and opensource work.
+Currently at [HiveMQ](https://www.hivemq.com) as a Staff Software Engineer building out their excellent MQTT and Sparkplug client ecosystem.
 
 ### Past
 
