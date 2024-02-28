@@ -14,7 +14,7 @@ With that feedback and inspiration I've added logins, file uploads, passphrase l
 
 Now to hit 185,000 users in January 2024 is just crazy.
 
-And to top it off, that doesn't include the hundreds(?) of self-hosted instances out in the wild and in private intranets.
+And to top it off, that doesn't include the uncounted number of JSON API users and hundreds(?) of self-hosted instances out in the wild and in private intranets.
 
 Here are two Google Analytics screenshots to illustrate:
 
