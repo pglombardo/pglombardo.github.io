@@ -27,13 +27,17 @@ I contribute to a large number of open source projects.  See the [Projects](/pro
 
 ## Published Articles
 
-* [The Ultimate Guide on How to Use MQTT with Node.js](https://www.hivemq.com/blog/ultimate-guide-on-how-to-use-mqtt-with-node-js/)
-* [HiveMQ MQTT C# Client (BETA)](https://www.hivemq.com/blog/mqtt-client-library-for-c-sharp-dot-net/)
-* [Monitoring Python with Instana](https://www.instana.com/blog/monitoring-python-instana/)
-* [Zero-Effort, Fully Automatic Distributed Tracing for Python Performance](https://www.instana.com/blog/zero-effort-fully-automatic-distributed-tracing-for-python/)
-* [Python Application Monitoring, Automatic Tracing and OpenTracing](https://www.instana.com/blog/python-application-monitoring-automatic-tracing-and-opentracing/) - also on [DZone](https://dzone.com/articles/python-application-monitoring-automatic-tracing-an)
-* [Introducing the Instana Python REST API Client](https://www.instana.com/blog/introducing-the-instana-python-rest-api-client/)
-* [Instrumenting Ruby on Rails with TraceView in Under 10 Minutes](https://dzone.com/articles/instrumenting-ruby-rails)
+| Article | Originally Posted At |
+|---------|---------------------|
+| [The Ultimate Guide on How to Use MQTT with Node.js](https://www.hivemq.com/blog/ultimate-guide-on-how-to-use-mqtt-with-node-js/) | HiveMQ Blog |
+| [HiveMQ MQTT C# Client (BETA)](https://www.hivemq.com/blog/mqtt-client-library-for-c-sharp-dot-net/) | HiveMQ Blog |
+| [Monitoring Python with Instana](https://www.instana.com/blog/monitoring-python-instana/) (Dead Link) | Instana Blog |
+| [Zero-Effort, Fully Automatic Distributed Tracing for Python Performance](/instana/python/Zero-Effort-Fully-Automatic-Distributed-Tracing-For-Python/) | Instana Blog |
+| [Python Application Monitoring, Automatic Tracing and OpenTracing](https://www.instana.com/blog/python-application-monitoring-automatic-tracing-and-opentracing/) (Dead Link) | Instana Blog & DZone |
+| [Introducing the Instana Python REST API Client](https://www.instana.com/blog/introducing-the-instana-python-rest-api-client/) (Dead Link) | Instana Blog |
+| [Instrumenting Ruby on Rails with TraceView in Under 10 Minutes](/tracelytics/Instrumenting-Ruby-on-Rails-with-TraceView-in-under-10-minutes/) | DZone |
+
+_Note: After IBM acquired Instana, they axed most if not all pre-acquisition Instana blog posts._
 
 ## Recent Community Groups & Conferences
 
