@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/posts/2021/wlkata-mirobot.jpeg
 ---
 
-![](/assets/images/posts/2021/wlkata-mirobot.jpeg)
+An impressive piece of hardware and design but unfortunately the decisions and actions that this Chinese company has taken makes this product unusable for anything beyond a display piece for the shelf.
 
-The WLKata Robotic Arm is an impressive piece of hardware and design but unfortunately the decisions and actions that this Chinese company has taken makes this product unusable for anything beyond the most basic usage.
+![](/assets/images/posts/2021/wlkata-mirobot.jpeg)
 
 For the current price tag of ~€1700 and the headaches it will bring, it's far from worth it.
 

@@ -8,6 +8,8 @@ header:
 
 Slow and steady [pwpush.com](https://pwpush.com) usage has been organically growing since 2011 with no advertisements and no corporate backing.  Just myself and a great community of intelligent security minded people.
 
+![](/assets/images/posts/2024/pwpush-jan-2024-185k.png)
+
 That community has been a big help in supporting the project, contributing ideas, fixes and community help.
 
 With that feedback and inspiration I've added logins, file uploads, passphrase lockdowns, audit logs and more.  See some of the feature screenshots in [this X thread](https://twitter.com/pwpush/status/1492083610261901312).
