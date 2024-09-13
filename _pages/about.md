@@ -44,10 +44,15 @@ _Note: After IBM acquired Instana, they axed most if not all pre-acquisition Ins
 * 2018 [PyCon](https://us.pycon.org/2018/) in Cleveland, Ohio
 * 2016-2017 Various [OpenTracing](https://opentracing.io/) Community Meetups in Seattle, WA., Berlin, Germany and other venues.
 
-## Research, Interests & Hobbies
+## Other Interests
 
-* [Piano](https://www.youtube.com/watch?v=HDSmKGVOAd8)
 * Robotics
+* Piano
+  * [Mr. Bojangles](https://www.youtube.com/watch?v=HDSmKGVOAd8)
+  * [Theme song to something…scary](https://rumble.com/v2bvgly-theme-song-to-somethingscary.html)
+  * [Cool Piano: For Caterina](https://www.youtube.com/watch?v=25f3puIlGi0)
+  * [Blues Piano - How Long Blues](https://www.youtube.com/watch?v=-idNRC-Si0I)
+
 
 ## Work
 
