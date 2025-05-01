@@ -9,13 +9,15 @@ title: "List of Things That Robotic Companies Should NEVER Do"
 Youtube videos
 
 
-Promises
 
-The world will never be the same
-The possibilities are endless
+Make ridiculous Promises
+
+don't use phrases such as:
+"The world will never be the same"
+"The possibilities are endless"
 
 
-Claims
+Common Claims that most often turn out to be false or never materialized just because of the unrealistic nature
 
 Improve healthcare, entertain your family, 
 bring new jobs, opportunities
