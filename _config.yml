@@ -115,6 +115,9 @@ author:
   location         : "Palermo, Sicily"
   email            :
   links:
+    - label: "pwpush.com"
+      icon: "fas fa-fw fa-lock"
+      url: "https://pwpush.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pglombardo"
@@ -124,9 +127,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/peterlombardo/"
-    - label: "Password Pusher"
-      icon: "fas fa-fw fa-lock"
-      url: "https://pwpush.com"
+    - label: "Apnotic"
+      icon: "fas fa-fw fa-building"
+      url: "https://apnotic.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
