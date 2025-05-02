@@ -3,7 +3,7 @@ layout: single
 categories: ["Javascript"]
 title: "How to Generate a High Entropy Password in Javascript"
 header:
-  teaser: /assets/images/posts/2024/code.jpg
+  teaser: /assets/images/posts/2025/coding6.png
 ---
 
 ### How to Generate a High Entropy Password in JavaScript

@@ -3,7 +3,7 @@ layout: single
 categories: ["Ruby"]
 title: "How to Scramble a String in Ruby"
 header:
-  teaser: /assets/images/posts/2024/code.jpg
+  teaser: /assets/images/posts/2025/coding4.png
 ---
 
 To randomly scramble a string in Ruby, you can use the `chars` method to split the string into an array of characters, the `shuffle` method to randomly shuffle the array, and the `join` method to concatenate the array back into a string.

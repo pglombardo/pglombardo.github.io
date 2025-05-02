@@ -3,7 +3,7 @@ layout: single
 categories: ["Python"]
 title: "How to Scramble a String in Python"
 header:
-  teaser: /assets/images/posts/2024/code.jpg
+  teaser: /assets/images/posts/2025/coding1.png
 ---
 
 To randomly scramble a string in Python, you can use the `list` function to convert the string into a list of characters, the `random.shuffle` method to shuffle the list, and the `join` method to concatenate the list back into a string.
