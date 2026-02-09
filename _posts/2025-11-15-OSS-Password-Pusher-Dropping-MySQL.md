@@ -3,7 +3,7 @@ layout: single
 categories: ["Password Pusher"]
 title: "OSS Password Pusher: Dropping Official MySQL/MariaDB Support & Future Defaults"
 header:
-  teaser: /assets/images/posts/pwpush-logo.png
+  teaser: /assets/images/naked-logo.png
 ---
 
 Open source Password Pusher has supported SQLite3, PostgreSQL, and MySQL databases pretty much since the project was created. For some reason, MySQL has always been the troublemaker in terms of problems and bugs, but we still did our best to happily support it throughout the years.
