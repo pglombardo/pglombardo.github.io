@@ -12,14 +12,14 @@
 
 #theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.27.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "The 0x00"
 title_separator          : "-"
 name                     : "Peter Giacomo Lombardo"
-description              : "Startup Hacker"
+description              : "Founder & Principle @ Apnotic"
 url                      : "https://the0x00.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pglombardo/pglombardo.github.io"
@@ -111,7 +111,7 @@ analytics:
 author:
   name             : "Peter Giacomo Lombardo"
   avatar           : "/assets/images/2021-lombardo.png"
-  bio              : "Creator of Password Pusher.  Founder & Principle of Apnotic.  Former staff of acquired startups Instana & Tracelytics."
+  bio              : "Creator of Password Pusher.  Founder & Principle of Apnotic.  OSS Developer & former staff of acquired startups Instana & Tracelytics."
   location         : "Palermo, Sicily"
   email            :
   links:
@@ -121,6 +121,9 @@ author:
     - label: "pwpush.com"
       icon: "fas fa-fw fa-lock"
       url: "https://pwpush.com"
+    - label: "Awesome MQTT"
+      icon: "fas fa-fw fa-broadcast-tower"
+      url: "https://awesome-mqtt.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pglombardo"
@@ -146,9 +149,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pglombardo"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/pglombardo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pglombardo"

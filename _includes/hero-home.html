@@ -1,0 +1,15 @@
+<section class="hero-intro" aria-label="About">
+  <div class="hero-intro__inner">
+    <h1 class="hero-intro__title">{{ site.author.name }}</h1>
+    <p class="hero-intro__tagline">{{ site.description }}</p>
+    <p class="hero-intro__bio">{{ site.author.bio }}</p>
+    {% if site.author.location %}
+      <p class="hero-intro__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ site.author.location }}</p>
+    {% endif %}
+    <div class="hero-intro__links">
+      <a href="https://apnotic.com" class="hero-intro__link" rel="noopener noreferrer">Apnotic</a>
+      <span class="hero-intro__sep">·</span>
+      <a href="https://pwpush.com" class="hero-intro__link" rel="noopener noreferrer">Password Pusher</a>
+    </div>
+  </div>
+</section>

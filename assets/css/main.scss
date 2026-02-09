@@ -5,11 +5,489 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// === Variable overrides (before theme import) ===
+$serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+$sans-serif: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
 
-.page__content {
-  font-family: $global-font-family;
-  font-size: $type-size-6;
+$background-color: #fafaf9;
+$text-color: #1c1917;
+$muted-text-color: #57534e;
+$link-color: #0d9488;
+$link-color-hover: darken(#0d9488, 12%);
+$border-color: #e7e5e4;
+$primary-color: #0d9488;
+$footer-background-color: #1c1917;
+$masthead-background-color: #ffffff;
+$nav-link-color: #44403c;
+$nav-link-color-hover: #0d9488;
+
+$intro-transition: fade 0.6s ease-out;
+$global-transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// === Custom overrides (modern, elegant look) ===
+
+// Base typography
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6,
+.archive__item-title,
+.page__title {
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: $text-color;
+}
+
+.page__lead {
+  font-family: $serif;
+  font-size: 1.125rem;
+  color: $muted-text-color;
+  font-style: italic;
+}
+
+a {
+  transition: $global-transition;
+}
+
+// Masthead: clean, minimal
+.masthead {
+  background: $masthead-background-color;
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.greedy-nav {
+  a {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+  .visible-links a:hover {
+    color: $link-color;
+  }
+}
+
+// Hero / banner area: soften transition into content
+.page__hero--overlay {
+  position: relative;
+  margin-bottom: 0;
+  .page__title {
+    font-weight: 700;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.page__hero + .page {
+  margin-top: 0;
+}
+
+// Gentle transition from hero to main content
+.page__hero--overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, $background-color);
+  pointer-events: none;
+}
+
+// Home page hero section (no image)
+.hero-intro {
+  padding: 2.5rem 0 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.hero-intro__inner {
+  max-width: 40rem;
+}
+
+.hero-intro__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: $text-color;
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+}
+
+.hero-intro__tagline {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: $link-color;
+  margin: 0 0 0.75rem;
+}
+
+.hero-intro__bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: $text-color;
+  margin: 0 0 0.5rem;
+}
+
+.hero-intro__location {
+  font-size: 0.9375rem;
+  color: $muted-text-color;
+  margin: 0 0 1rem;
+  .fa-map-marker-alt {
+    margin-right: 0.35rem;
+    opacity: 0.8;
+  }
+}
+
+.hero-intro__links {
+  font-size: 0.9375rem;
+}
+
+.hero-intro__link {
+  color: $link-color;
+  font-weight: 500;
+  text-decoration: none;
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.hero-intro__sep {
+  margin: 0 0.5rem;
+  color: $muted-text-color;
+  font-weight: 400;
+}
+
+// Sidebar author card: elevated, refined (no heavy oval)
+.sidebar {
+  background: transparent;
+}
+
+.author__avatar {
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.author__content {
+  .author__name {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .author__bio {
+    color: $muted-text-color;
+    font-size: 0.9375rem;
+    line-height: 1.55;
+  }
+}
+
+// Sidebar links use accent color
+.sidebar a,
+.author__urls a {
+  color: $link-color;
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+.sidebar .author__urls-wrapper {
+  .btn {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: $global-transition;
+  }
+}
+
+// Archive grid: card-style entries with hover
+.archive__item {
+  transition: $global-transition;
+}
+
+.archive__item-teaser {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: $global-transition;
+}
+
+.layout--archive .archive__item {
+  margin-bottom: 2rem;
+}
+
+.archive__item:hover .archive__item-teaser {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.archive__item-title {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  a {
+    color: $text-color;
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
+
+.archive__item-excerpt {
+  font-size: 0.875rem;
+  color: $muted-text-color;
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+// Read time and meta
+.archive__item-meta {
+  font-size: 0.8125rem;
+  color: $muted-text-color;
+}
+
+// Main content area
+.page__content {
+  font-family: $global-font-family;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: $text-color;
+}
+
+// Pagination
+.pagination--pager,
+.pagination {
+  a, span {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: $global-transition;
+  }
+  a:hover {
+    background: $link-color;
+    color: #fff;
+    border-color: $link-color;
+  }
+}
+
+// Footer: mature, professional with promo block
+.page__footer {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid $border-color;
+  background: $footer-background-color;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9375rem;
+  a {
+    color: rgba(255, 255, 255, 0.9);
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+// Apnotic, Password Pusher & Awesome MQTT promo block
+.footer__promo {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer__promo-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 64em) {
+  .footer__promo-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 48em) {
+  .footer__promo-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer__promo-item {
+  margin: 0;
+}
+
+.footer__promo-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.2s ease;
+  border-radius: 6px;
+  &:hover {
+    color: #fff;
+    .footer__promo-cta {
+      opacity: 1;
+    }
+  }
+}
+
+.footer__promo-icon {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: $link-color;
+  font-size: 1rem;
+}
+
+.footer__promo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.footer__promo-title {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.footer__promo-tagline {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__promo-cta {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: $link-color;
+  margin-top: 0.25rem;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+// Footer follow (social) and copyright: cleaner hierarchy
+.page__footer-follow {
+  margin-bottom: 1rem;
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0;
+    transition: opacity 0.2s ease;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+  .social-icons .fab,
+  .social-icons .fas {
+    color: $link-color;
+    font-size: 1.125rem;
+  }
+  .social-icons li:first-child {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    margin-right: 0.25rem;
+  }
+}
+
+.page__footer-copyright {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.6);
+  a {
+    color: rgba(255, 255, 255, 0.75);
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.footer__links {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  a {
+    margin-right: 1rem;
+  }
+}
+
+// Notices and buttons
+.notice {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: $global-transition;
+}
+
+// Code and pre
+pre, code {
+  border-radius: 6px;
+}
+
+// Archive section heading (e.g. "Recent Posts")
+.archive__subtitle,
+.archive h2,
+.archive h3 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $muted-text-color;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid $link-color;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+// Wide layout spacing
+.layout--archive .archive {
+  padding-left: 0;
+}
+
+// Content wrapper: more space after hero
+.main-content {
+  padding-top: 2rem;
+}
+
+body .page__hero + .page .main-content {
+  padding-top: 2.5rem;
+}
+
+@media (min-width: 80em) {
+  .sidebar {
+    padding-left: 1rem;
+  }
+  .archive__item-teaser {
+    max-height: 220px;
+  }
+}
