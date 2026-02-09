@@ -1,3 +1,20 @@
+<script>
+(function() {
+  function fixPermalinkLinks() {
+    document.querySelectorAll('.page__content .header-link').forEach(function(a) {
+      a.removeAttribute('title');
+      a.innerHTML = '<i class="fas fa-link" aria-hidden="true"></i>';
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(fixPermalinkLinks, 100);
+    });
+  } else {
+    setTimeout(fixPermalinkLinks, 100);
+  }
+})();
+</script>
 <div class="footer__promo">
   <div class="footer__promo-inner">
     <div class="footer__promo-item">

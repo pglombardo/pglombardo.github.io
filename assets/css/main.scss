@@ -258,6 +258,11 @@ a {
   color: $text-color;
 }
 
+// Heading permalink: icon only (text replaced by JS in footer/custom.html)
+.page__content .header-link {
+  text-decoration: none;
+}
+
 // Pagination
 .pagination--pager,
 .pagination {
