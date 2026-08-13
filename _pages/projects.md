@@ -88,21 +88,24 @@ gameface_row:
     alt: "Gameface"
     title: "Gameface"
     excerpt: 'Social networking platform for gamers'
+    url: "/tracelytics/ruby/The-War-on-ActionView-with-Russian-Doll-Caching/"
+    btn_label: "Post"
+    btn_class: "btn--primary"
 irc2hipchat_row:
   - image_path: /assets/images/pages/irc2hipchat.png
     alt: "IRC2HipChat"
     title: "IRC2HipChat"
     excerpt: 'Log all messages from an IRC room to HipChat'
-    url: "/IRC2HipChat/"
-    btn_label: "Docs"
+    url: "/irc2hipchat/Log-all-messages-from-an-IRC-channel-to-a-HipChat-room/"
+    btn_label: "Post"
     btn_class: "btn--primary"
 traceview_row:
   - image_path: /assets/images/pages/traceview-ruby.png
     alt: "TraceView Ruby"
     title: "Tracelytics: Ruby Performance Instrumentation for TraceView"
     excerpt: 'Distributed tracing instrumentation for a large number of Ruby frameworks, libraries and gems'
-    url: "https://github.com/tracelytics/ruby-traceview"
-    btn_label: "Github"
+    url: "/tracelytics/AppNeta-releases-their-TraceView-Ruby-instrumentation-code-as-open-source/"
+    btn_label: "Post"
     btn_class: "btn--primary"
 ---
 
