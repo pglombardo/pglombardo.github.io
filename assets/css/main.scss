@@ -527,6 +527,26 @@ pre, code {
   border-radius: 6px;
 }
 
+// Inline code: GitHub-style chip (not fenced blocks)
+:not(pre) > code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 0.85em;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  color: $text-color;
+  background-color: #a8a29e;
+  border-radius: 6px;
+  white-space: break-spaces;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  background: transparent;
+  border-radius: 0;
+  white-space: inherit;
+}
+
 // Archive section heading (e.g. "Recent Posts")
 .archive__subtitle,
 .archive h2,
