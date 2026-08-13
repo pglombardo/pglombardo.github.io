@@ -258,6 +258,74 @@ a {
   color: $text-color;
 }
 
+// About: Apnotic company block
+.about-company {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.about-company__mark {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
+  img {
+    width: 140px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0;
+  }
+}
+
+.about-company__body {
+  min-width: 0;
+  p {
+    margin: 0 0 0.5rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.about-company__links {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  a {
+    color: $link-color;
+  }
+  span {
+    margin: 0 0.4rem;
+    color: $muted-text-color;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 48em) {
+  .about-company {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 1.25rem;
+  }
+}
+
+// Work history logos in about tables
+.page__content table img {
+  max-height: 52px;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.page__content table img.work-logo--lg {
+  max-height: 80px;
+}
+
 // Heading permalink: icon only (text replaced by JS in footer/custom.html)
 .page__content .header-link {
   text-decoration: none;
